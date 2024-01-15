@@ -3,13 +3,17 @@
     margin: 0;
     text-align: center;
 }
-header {
-    text-align: center;
-    padding: 16px;
+
+h1, h2 , p { 
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
-h1 { 
-    margin-bottom: 16px;
+.botao1 {
+    border: 2px solid #030303;
+    background-color: #030303;
+    color: #ffffff;
+    border-radius: 8px;
 }
 
 footer {
