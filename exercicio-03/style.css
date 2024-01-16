@@ -4,7 +4,40 @@
     text-align: center;
 }
 
-h1, h2 , p { 
+header h1 {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #030303;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+header p {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-size: smaller;
+    font-style: normal;
+    color: #030303;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+section h2 {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #030303;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+section p {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-size: smaller;
+    font-style: normal;
+    color: #030303;
     margin-top: 16px;
     margin-bottom: 16px;
 }
@@ -12,13 +45,92 @@ h1, h2 , p {
 .botao1 {
     border: 2px solid #030303;
     background-color: #030303;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
     color: #ffffff;
-    border-radius: 8px;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 16px;
+}
+
+.secao2 h2{
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #030303;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.secao2 p {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-size: smaller;
+    font-style: normal;
+    color: #030303;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+section a  button{
+    border: 2px solid #0282fa;
+    background-color: #0282fa;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.vermais {
+    border: 2px solid #030303;
+    background-color: #030303;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 8px;
+}
+.secao3 h2{
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #030303;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.secao3 p {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-size: smaller;
+    font-style: normal;
+    color: #030303;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.inscrever{
+    border: 2px solid #030303;
+    background-color: #030303;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 12px;
+    margin-bottom: 20px;
 }
 
 footer {
     background-color: #030303;
     color: #ffffff;
+    font-family: "PT Serif", serif;
+    font-weight: 200;
+    font-style: italic;
     padding: 16px;
     margin-top: 16px;
 }
+
