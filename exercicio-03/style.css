@@ -1,136 +1,78 @@
 * {
-    padding: 0;
+    font-family: "Fira Sans", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 1px solid #030308;
+    font-size: 1.125rem;
+    padding: 2rem 0;
     text-align: center;
 }
 
-header h1 {
-    font-family: "PT Serif", serif;
+h1, h2 {
+    font-family: "Lora", serif;
     font-weight: 400;
-    font-style: normal;
-    color: #030303;
-    margin-top: 16px;
-    margin-bottom: 16px;
 }
 
-header p {
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-size: smaller;
-    font-style: normal;
-    color: #030303;
-    margin-top: 16px;
-    margin-bottom: 16px;
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
 }
 
-section h2 {
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #030303;
-    margin-top: 16px;
-    margin-bottom: 16px;
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
-section p {
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-size: smaller;
-    font-style: normal;
-    color: #030303;
-    margin-top: 16px;
-    margin-bottom: 16px;
+.feature, .catalog, .cta {
+    font-size: 1.125rem;
+    padding: 2rem;
+    text-align: center;
 }
 
-.botao1 {
-    border: 2px solid #030303;
-    background-color: #030303;
-    font-family: "PT Serif", serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #ffffff;
-    border-radius: 20px;
-    padding: 8px;
-    margin-top: 16px;
+.cta-button {
+    background-color: #030308;
+    border-radius: 9999px;
+    color: #fff;
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem 1.5rem;
+    width: fit-content;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-.secao2 h2{
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #030303;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-.secao2 p {
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-size: smaller;
-    font-style: normal;
-    color: #030303;
-    margin-top: 16px;
-    margin-bottom: 16px;
+.genres > li {
+    display: inline-block;
+    margin-top: 2rem;
 }
 
-section a  button{
-    border: 2px solid #0282fa;
-    background-color: #0282fa;
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #ffffff;
-    border-radius: 20px;
-    padding: 8px;
+.genres > li + li {
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
-.vermais {
-    border: 2px solid #030303;
-    background-color: #030303;
-    font-family: "PT Serif", serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #ffffff;
-    border-radius: 20px;
-    padding: 8px;
-}
-.secao3 h2{
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #030303;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-.secao3 p {
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-size: smaller;
-    font-style: normal;
-    color: #030303;
-    margin-top: 16px;
-    margin-bottom: 16px;
+.genre > a,
+.see-more > a {
+    background-color: #43abf6;
+    border-radius: 9999px;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
 }
 
-.inscrever{
-    border: 2px solid #030303;
-    background-color: #030303;
-    font-family: "PT Serif", serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #ffffff;
-    border-radius: 20px;
-    padding: 8px;
-    margin-top: 12px;
-    margin-bottom: 20px;
+.see-more > a {
+    background-color: #030308;
+    text-transform: uppercase;
 }
 
 footer {
-    background-color: #030303;
-    color: #ffffff;
-    font-family: "PT Serif", serif;
-    font-weight: 200;
-    font-style: italic;
-    padding: 16px;
-    margin-top: 16px;
+    background-color: #030308;
+    color: #fff;
+    font-family: "Lora", serif;
+    padding: 2rem;
+    text-align: center;
 }
-
