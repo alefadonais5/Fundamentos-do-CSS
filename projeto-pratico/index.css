@@ -54,3 +54,47 @@ a {
     letter-spacing: 0.5rem; /*Espaçamento entre as letras*/
     text-transform: uppercase;
 }
+
+.section {
+    padding: 0 8rem;
+    text-align: center;
+}
+
+.section__title {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 4rem auto;
+}
+.section__img, .section__img-inline {
+    border-radius: .75rem;
+    /* eixo x, eixo y, blur, expansão/recuo, cor */
+    box-shadow: 0 2rem 2rem -0.5rem rgba(26, 116, 180,0.25); /*Sombra*/
+    object-fit: cover;
+    object-position: top;
+    position: relative;
+    max-height: 30rem;
+    width: 100%;
+}
+
+.section__text, .section__text-inline {
+    font-size: 1.25rem;
+    line-height: 1.75rem; /*Altura da linha*/
+    margin: 4rem auto;
+}
+
+/*Imagem e texto lado a lado*/
+.section__img-inline {
+    float: left; /*Faz a imagem flutuar-empurra a imagem para uma direção*/
+    height: 25rem;
+    width: 20rem;
+}
+
+/*Texto na messma altura da imagem que está do lado*/
+.section__text-inline {
+    margin-top: 6rem;
+    text-align: left;
+}
+
+.section__text-inline > p {
+    margin-top: 2rem;
+}
