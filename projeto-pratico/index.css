@@ -31,7 +31,7 @@ a {
     object-fit: cover; /*definir a forma como objeto vai caber (encaixar)*/
     position: absolute; /*Fica de fora desse padrão do html uma pilha embaixo da outra*/
     top: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     z-index: -10; /*Controla a profundidade do elementor*/
 }
